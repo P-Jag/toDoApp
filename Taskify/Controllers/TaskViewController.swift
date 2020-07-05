@@ -7,6 +7,8 @@ class TaskViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.tableFooterView = UIView()
+        
     }
     
     @IBAction func addTask(_ sender: UIBarButtonItem) {

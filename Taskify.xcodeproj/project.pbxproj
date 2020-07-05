@@ -15,6 +15,7 @@
 		CCC2EFF824B089030029A117 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2EFF724B089030029A117 /* TaskViewController.swift */; };
 		CCC2EFFA24B0B8A90029A117 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2EFF924B0B8A90029A117 /* Task.swift */; };
 		CCC2EFFC24B0BA360029A117 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2EFFB24B0BA360029A117 /* TaskStore.swift */; };
+		CCC2F00124B240350029A117 /* TaskUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2F00024B240350029A117 /* TaskUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CCC2EFF724B089030029A117 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		CCC2EFF924B0B8A90029A117 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		CCC2EFFB24B0BA360029A117 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		CCC2F00024B240350029A117 /* TaskUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +64,40 @@
 			children = (
 				CCC2EFE324B088900029A117 /* AppDelegate.swift */,
 				CCC2EFE524B088900029A117 /* SceneDelegate.swift */,
-				CCC2EFE924B088900029A117 /* Main.storyboard */,
+				CCC2EFFD24B23F720029A117 /* Models */,
+				CCC2EFFF24B23F9D0029A117 /* Views */,
+				CCC2EFFE24B23F7E0029A117 /* Controllers */,
 				CCC2EFEC24B088930029A117 /* Assets.xcassets */,
 				CCC2EFEE24B088930029A117 /* LaunchScreen.storyboard */,
 				CCC2EFF124B088930029A117 /* Info.plist */,
-				CCC2EFF724B089030029A117 /* TaskViewController.swift */,
-				CCC2EFF924B0B8A90029A117 /* Task.swift */,
-				CCC2EFFB24B0BA360029A117 /* TaskStore.swift */,
 			);
 			path = Taskify;
+			sourceTree = "<group>";
+		};
+		CCC2EFFD24B23F720029A117 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2EFF924B0B8A90029A117 /* Task.swift */,
+				CCC2EFFB24B0BA360029A117 /* TaskStore.swift */,
+				CCC2F00024B240350029A117 /* TaskUtility.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCC2EFFE24B23F7E0029A117 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2EFF724B089030029A117 /* TaskViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CCC2EFFF24B23F9D0029A117 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2EFE924B088900029A117 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +174,7 @@
 				CCC2EFFC24B0BA360029A117 /* TaskStore.swift in Sources */,
 				CCC2EFFA24B0B8A90029A117 /* Task.swift in Sources */,
 				CCC2EFE424B088900029A117 /* AppDelegate.swift in Sources */,
+				CCC2F00124B240350029A117 /* TaskUtility.swift in Sources */,
 				CCC2EFE624B088900029A117 /* SceneDelegate.swift in Sources */,
 				CCC2EFF824B089030029A117 /* TaskViewController.swift in Sources */,
 			);
